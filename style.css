@@ -1,0 +1,143 @@
+/* ---------- Reset ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ---------- Body ---------- */
+
+body{
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    transition:.4s;
+
+}
+
+/* ---------- Card ---------- */
+
+.card{
+
+    width:350px;
+
+    padding:30px;
+
+    border-radius:22px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(15px);
+
+    -webkit-backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+/* ---------- Title ---------- */
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:8px;
+
+}
+
+p{
+
+    text-align:center;
+
+    opacity:.8;
+
+    margin-bottom:25px;
+
+}
+
+/* ---------- Status ---------- */
+
+.status{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:12px;
+
+    margin-bottom:12px;
+
+    border-radius:12px;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+/* ---------- Button ---------- */
+
+button{
+
+    width:100%;
+
+    margin-top:15px;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#3b82f6;
+
+    color:white;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#2563eb;
+
+}
+
+/* ---------- Light Theme ---------- */
+
+body.light{
+
+    background:linear-gradient(135deg,#eef2ff,#dbeafe);
+
+    color:#111827;
+
+}
+
+body.light .card{
+
+    background:rgba(255,255,255,.6);
+
+}
+
+body.light .status{
+
+    background:rgba(255,255,255,.4);
+
+}
